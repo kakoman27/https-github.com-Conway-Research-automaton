@@ -3,6 +3,14 @@
 Superteam Earn paga en **USDC/USDG (stablecoins) a tu wallet de Solana**.
 Sin cuenta + wallet no hay cobro posible, así que haz esto **hoy mismo** (10 min, gratis).
 
+> ## ⚠️ ¿Talento o patrocinador?
+> **Regístrate como TALENTO, no como patrocinador.**
+> - **Talento** = quien hace el trabajo del bounty y cobra el premio → **tu caso**.
+> - **Patrocinador (sponsor)** = la empresa que publica bounties y PAGA. Eso es para compañías.
+>
+> En https://superteam.fun/earn usa el botón **"Sign Up"** (arriba a la derecha).
+> **NO** uses "Become a Sponsor" (eso es para empresas que quieren contratar gente).
+
 ---
 
 ## 1. Crea tu wallet Phantom (2 min) — necesaria para cobrar
