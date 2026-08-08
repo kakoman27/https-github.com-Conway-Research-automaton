@@ -1,0 +1,19 @@
+{
+  "name": "automaton-local",
+  "version": "0.1.0",
+  "description": "Autómata local funcional: bucle pensar → actuar → observar con herramientas, memoria, supervivencia y constitución. Sin dependencias nativas ni backend externo.",
+  "type": "module",
+  "bin": {
+    "automaton": "src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "demo": "node src/index.js --demo",
+    "run": "node src/index.js --run",
+    "setup": "node src/index.js --setup",
+    "status": "node src/index.js --status",
+    "selftest": "node src/index.js --selftest"
+  }
+}
