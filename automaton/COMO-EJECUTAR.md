@@ -40,8 +40,8 @@ node src/index.js --demo
 ```
 
 Verás al autómata explorar su propio código y **escribir un informe técnico** en
-`~/.automaton/demo/output/informe.md` (o donde apunte `AUTOMATON_DIR`). La demo usa
-estado propio (`automaton/.demo-state/`), no toca tu configuración real.
+`automaton/.demo-state/output/informe.md` (la demo usa estado propio, no toca tu
+configuración real).
 
 ---
 
