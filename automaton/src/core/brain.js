@@ -28,7 +28,7 @@ const PLANS = [
     ],
   },
   {
-    match: /bounty|ganar|earn|d[oó]lares|\$\s*5/i,
+    match: /bount|ganar|earn|d[oó]lares|estrategia|\$\s*5/i,
     steps: [
       { tool: 'get_status', args: {}, note: 'Estado actual' },
       { tool: 'bounty_scan', args: {}, note: 'Escaneo de bounties' },
@@ -98,7 +98,12 @@ export function createReflexBrain(ctx) {
       }
       const plan = PLANS[state.planIndex];
       const step = plan.steps[state.stepIndex];
-      if (!step) return { done: true, summary: `Plan "${plan.match}" completado.` };
+      if (!step) {
+        // Plan completado → reiniciar para que la próxima ejecución
+        // re-evalúe el objetivo con el estado actual.
+        saveReflexState(ctx.config.dataDir, { planIndex: -1, stepIndex: 0 });
+        return { done: true, summary: `Plan "${plan.match}" completado.` };
+      }
 
       state.stepIndex += 1;
       saveReflexState(ctx.config.dataDir, state);

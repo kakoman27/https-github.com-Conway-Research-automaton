@@ -1,11 +1,12 @@
 # Informe técnico generado por el autómata
 
-Fecha: 2026-08-08T16:09:38.149Z
+Fecha: 2026-08-08T16:20:06.332Z
 
 ### list_dir .
 .demo-state/
 README.md
 constitution.md
+examples/
 output/
 package.json
 skills/
