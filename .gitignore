@@ -1,0 +1,14 @@
+# Node
+node_modules/
+*.log
+
+# Rust build artifacts
+target/
+Cargo.lock.bak
+
+# Autómata local (estado de demo)
+automaton/.demo-state/
+automaton/output/
+
+# OS
+.DS_Store

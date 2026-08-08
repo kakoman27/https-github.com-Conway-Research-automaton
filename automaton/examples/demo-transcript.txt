@@ -1,0 +1,58 @@
+Demo en /home/user/https-github.com-Conway-Research-automaton/automaton/.demo-state
+
+[2026-08-08T16:20:06.329Z] 🚀 DemoBot arranca. Objetivo: explora el código de este autómata y escribe un informe técnico en output/informe.md
+[2026-08-08T16:20:06.329Z] Cerebro: reflex | Créditos: 100 | Tier: normal
+[2026-08-08T16:20:06.329Z] ▶ turno 1/12 [normal] Inventario raíz → list_dir {"path":"."}
+[2026-08-08T16:20:06.330Z]   ← .demo-state/
+  README.md
+  constitution.md
+  examples/
+[2026-08-08T16:20:06.330Z] ▶ turno 2/12 [normal] Leer README → read_file {"path":"README.md"}
+[2026-08-08T16:20:06.330Z]   ← # 🤖 Conway Automaton Local
+  
+  Un **autómata funcional de verdad**: bucle `pensar → actuar → observar → repetir`,
+  con herramientas, memoria, supervivencia y constitución — **local-first, cero
+[2026-08-08T16:20:06.330Z] ▶ turno 3/12 [normal] Leer package.json → read_file {"path":"package.json"}
+[2026-08-08T16:20:06.331Z]   ← {
+    "name": "automaton-local",
+    "version": "0.1.0",
+    "description": "Autómata local funcional: bucle pensar → actuar → observar con herramientas, memoria, supervivencia y constitución. Sin dependencias nativas ni backend externo.",
+[2026-08-08T16:20:06.331Z] ▶ turno 4/12 [normal] Estructura src → list_dir {"path":"src"}
+[2026-08-08T16:20:06.331Z]   ← config.js
+  core/
+  index.js
+  setup.js
+[2026-08-08T16:20:06.331Z] ▶ turno 5/12 [normal] Leer loop → read_file {"path":"src/core/loop.js"}
+[2026-08-08T16:20:06.331Z]   ← /**
+   * Bucle principal: pensar → actuar → observar → repetir.
+   * - Cobra créditos por turno (moneda local de demostración).
+   * - Detecta bucles (3 turnos seguidos solo-lectura → termina).
+[2026-08-08T16:20:06.331Z] ▶ turno 6/12 [normal] Leer brain → read_file {"path":"src/core/brain.js"}
+[2026-08-08T16:20:06.331Z]   ← /**
+   * Cerebros del autómata: deciden la siguiente acción.
+   *
+   * - ReflexBrain: planificador determinista. Funciona SIN API key, con cero
+[2026-08-08T16:20:06.332Z] ▶ turno 7/12 [normal] Redactar informe → write_file {"path":"output/informe.md","content":"# Informe técnico generado por el autómata\n\nFecha: 2026-08-08T16:20:06.332Z\n\n
+[2026-08-08T16:20:06.332Z]   ← escrito: 2438 bytes en output/informe.md
+[2026-08-08T16:20:06.332Z] ▶ turno 8/12 [normal] finish → finish {"summary":"Informe técnico generado en output/informe.md"}
+[2026-08-08T16:20:06.332Z]   ← DONE: Informe técnico generado en output/informe.md
+[2026-08-08T16:20:06.332Z] ✅ Plan "/informe|explora|explore|report|analiza/i" completado.
+[2026-08-08T16:20:06.332Z] 🏁 Fin. Resumen: Plan "/informe|explora|explore|report|analiza/i" completado.
+[2026-08-08T16:20:06.333Z] Estado final: 91 créditos | tier normal | 8 entradas de memoria
+[2026-08-08T16:20:06.333Z] Registro completo en /home/user/https-github.com-Conway-Research-automaton/automaton/.demo-state/transcript.log
+
+Demo terminada: {
+  "summary": "Plan \"/informe|explora|explore|report|analiza/i\" completado.",
+  "status": {
+    "credits": 91,
+    "spent": 9,
+    "tier": "normal",
+    "startedAt": "2026-08-08T16:20:06.328Z"
+  },
+  "turns": 9,
+  "memoryEntries": 8
+}
+
+--- Heartbeat de muestra (2 ticks) ---
+[heartbeat 1/2] check_credits → 91 créditos (tier normal)
+[heartbeat 2/2] check_credits → 91 créditos (tier normal)
